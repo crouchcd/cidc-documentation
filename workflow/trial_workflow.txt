@@ -1,0 +1,17 @@
+Title: CIDC Sample Tracking Flow
+
+Study Owner -> NCI: Some study onboarding process
+...:
+Study Owner -> NCI: Create Study Roadmap and submit to NCI
+Study Owner -> CIDC: CIDC Also gets a copy of Study Roadmap
+NCI -> NCI: NCI Generates CIDC IDs for Study
+NCI -> Study Owner: CIDC IDs returned to Study Owner
+NCI -> CIDC: CIDC Gets a copy of Study Roadmap with CIDC IDs added
+CIDC -> CIDC: Populate CIDC with CIDC IDs for a study
+Study Owner -> Biobank: Supply CIDC IDs and Sample order to Biobank
+Biobank -> Biobank: Create Shipping Manifest Excel File
+Biobank -> CIMAC: Ships Shipping Manifest + Samples
+Biobank -> CIDC: Sends copy of Shipping Manifest via secure send mechanism
+CIMAC -> CIDC: Sends receiving Manifest to CIDC
+CIMAC -> CIDC: Sends Metadata to CIDC via excel sheet
+CIMAC -> CIDC: Uploads Data to CIDC via CLI
