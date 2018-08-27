@@ -1,11 +1,11 @@
 Title: CIMAC-CIDC Sample Workflow (Short Term)
 
-=: **Study Onboarding Steps**
+=: **STUDY ONBOARDING STEPS**
 Study Owner -> NCI: Create Study Roadmap and submit to NCI
 NCI -> CIDC: Send CIDC a copy of Study Roadmap
 CIDC -> CIDC: CIDC Sets up Trial in System
 
-=:**Biobank Steps**
+=:**BIOBANK STEPS**
 Study Owner -> Biobank: ?Supply Sample order to Biobank?
 Biobank -> Biobank: Create **Shipping Manifest** Excel File
 Biobank -> CIDC: Retrieve identifiers as needed from CIDC page and fill in on **Shipping Manifest** Template (CIDC Patient ID)
