@@ -1,17 +1,21 @@
-Title: CIDC Sample Tracking Flow
+Title: CIMAC-CIDC Sample Workflow (Short Term)
 
-Study Owner -> NCI: Some study onboarding process
-...:
+--: Study Onboarding Steps
 Study Owner -> NCI: Create Study Roadmap and submit to NCI
-Study Owner -> CIDC: CIDC Also gets a copy of Study Roadmap
-NCI -> NCI: NCI Generates CIDC IDs for Study
-NCI -> Study Owner: CIDC IDs returned to Study Owner
-NCI -> CIDC: CIDC Gets a copy of Study Roadmap with CIDC IDs added
-CIDC -> CIDC: Populate CIDC with CIDC IDs for a study
-Study Owner -> Biobank: Supply CIDC IDs and Sample order to Biobank
-Biobank -> Biobank: Create Shipping Manifest Excel File
-Biobank -> CIMAC: Ships Shipping Manifest + Samples
-Biobank -> CIDC: Sends copy of Shipping Manifest via secure send mechanism
-CIMAC -> CIDC: Sends receiving Manifest to CIDC
-CIMAC -> CIDC: Sends Metadata to CIDC via excel sheet
-CIMAC -> CIDC: Uploads Data to CIDC via CLI
+NCI -> CIDC: Send CIDC a copy of Study Roadmap
+CIDC -> CIDC: CIDC Sets up Trial in System
+
+--:Biobank Steps
+Study Owner -> Biobank: ?Supply Sample order to Biobank?
+Biobank -> Biobank: Create **Shipping Manifest** Excel File
+Biobank -> CIDC: Retrieve identifiers as needed from CIDC page and fill in on **Shipping Manifest** Template (CIDC Patient ID)
+Biobank -> CIMAC: Ships **Shipping Manifest** + Samples
+Biobank -> CIDC: Sends copy of **Shipping Manifest** via secure send mechanism
+
+--:CIMAC Steps
+CIMAC -> CIDC: Sends **Receiving Manifest** to CIDC
+CIMAC -> CIMAC: Sample to Aliquot breakdown
+CIMAC -> CIMAC: Run Analysis
+CIMAC <-> CIDC: Retrieves CIDC IDs for Aliquot IDs (Maybe intermediary Sample Portions get their IDs here)
+CIMAC -> CIDC: Sends **Metadata** to CIDC via excel sheet
+CIMAC -> CIDC: Uploads **Analysis Data** to CIDC via CLI
