@@ -30,9 +30,9 @@ CIMAC -> CIDC: Upload Assay Data
 
 ## Important Metadata Attributes <a name="metadata"></a>
 
-LOD: Loss of something
+**LOD:** Loss of something
 
-Missing Data freq.: Percentage of something
+**Missing Data freq.:** Percentage of something
 
 ## Files to be uploaded to CIDC <a name="uploads"></a>
 
