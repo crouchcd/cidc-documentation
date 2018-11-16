@@ -1,13 +1,13 @@
 # Documentation for Olink
 
 # Table of Contents
-1. [Data Processing Workflow](#Data Processing Workflow)
+[Data Processing Workflow](#workflow)
 
 
 
 ## Data Processing Workflow
 
-![Olink Workflow](https://static.swimlanes.io/1c046f0555d01319d507c36c06950bab.png "Olink Workflow")
+![Olink Workflow](https://static.swimlanes.io/1c046f0555d01319d507c36c06950bab.png "Olink Workflow")<a name="workflow"></a>
 
 ```
 LCC -> Biobank: Assess Sample Availability
