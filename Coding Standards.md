@@ -5,8 +5,8 @@ When committing files;
 
 Black doesn't have an opinion on docstring formatting, we use this
 
-def some_method(items: List[dict]) -> List[str]:
 ```python
+def some_method(items: List[dict]) -> List[str]:
     """
     Description of method
     Arguments:
