@@ -17,9 +17,17 @@ Black doesn't have an opinion on docstring formatting, we use this
 def some_method(items: List[dict]) -> List[str]:
     """
     Description of method
+    
+    Annotation:
+        Annotation -- Annotation description.
+
     Arguments:
-        items {[dict]} -- Argument description.
+        items {List[dict]} -- Argument description.
+    
+    Raises:
+        SomeError -- Error description.
+        
     Returns:
-        [str] -- Return description.
+        List[str] -- Return description.
     """
 ```
