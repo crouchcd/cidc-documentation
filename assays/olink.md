@@ -1,9 +1,15 @@
 # Documentation for Olink
 
+# Table of Contents
+1. [Data Processing Workflow](#Data Processing Workflow)
+
+
+
 ## Data Processing Workflow
 
 ![Olink Workflow](https://static.swimlanes.io/1c046f0555d01319d507c36c06950bab.png "Olink Workflow")
 
+```
 LCC -> Biobank: Assess Sample Availability
 Biobank <-- Box.com (NCI): Download Shipping Manifest Template
 Biobank -> Box.com (NCI): Upload Shipping Manifest with Biobank IDs
@@ -18,6 +24,7 @@ CIMAC -> Box.com (NCI): Upload Receiving Manifest
 CIDC --> Box.com (NCI): Download Metadata
 CIMAC -> CIMAC: Process Sample
 CIMAC -> CIDC: Upload Assay Data
+```
 
 ## Important Metadata Attributes
 
