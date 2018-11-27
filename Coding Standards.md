@@ -1,3 +1,6 @@
+
+## Formatting
+
 When committing files;
 
 * use black with default settings
@@ -30,4 +33,26 @@ def some_method(items: List[dict]) -> List[str]:
     Returns:
         List[str] -- Return description.
     """
+```
+
+## Version Control
+
+The best format to use for GitHub issues in commit messages or branch names is
+
+```bash
+organization/repo#ticket_number
+```
+
+As an example, issue 91 in the cidc-portal repo of the DFCI organization
+
+```bash
+dfci/cidc-portal#91
+```
+
+Where possible, create branches with a name to reflect the fully qualified ticket they are addressing.
+
+Whenever writing a commit, start with the fully qualified issue name and a dash.
+
+```bash
+git commit -m "dfci/cidc-portal#91 - Commit message here."
 ```
