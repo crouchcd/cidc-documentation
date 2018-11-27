@@ -37,6 +37,7 @@ Astrolable -> CIDC : Store Analyzed files
     * Sample ID
     * Patient ID
     * Condition (Tumor/Normal)
+    * Any additional feature (Timepoint, Treatment etc)
 - Experiment metadata
     * Instrument name
     * Panel ID
