@@ -51,8 +51,8 @@ Astrolable -> CIDC : Store Analyzed files
 ## Files to be uploaded to CIDC by ASTROLABE <a name="uploads"></a>
 - Gated FCS files
 - Analysis files
- * plots
- * raw csv
+  * plots
+  * raw csv
 
 ## Data to be stored in CIDC <a name="uploads"></a>
 - Metadata:
