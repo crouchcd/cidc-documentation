@@ -1,7 +1,7 @@
 # Documentation for Whole Exome Sequencing Pipeline
 
 # Table of Contents
-- [Introduction](#intro)
+- [Introduction](#introduction)
 - [Wokflow](#workflow)
 - [Pipeline Inputs](#input)
 - [Pipeline Outputs](#output)
