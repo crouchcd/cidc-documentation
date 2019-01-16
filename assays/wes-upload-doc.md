@@ -36,6 +36,43 @@ Meta Data file is a csv file and requires following columns:
 
 Start the CLI and use your JWT to log in
 
-```console
-(Cmd) jwt_login ey927853.......
-```
+Authorize using your JWT:
+
+~~~~
+(CMD) jwt your-jwt-here
+~~~~
+
+Run upload command:
+
+~~~~
+(CMD) upload_data
+~~~~
+
+Select a trial:
+
+~~~~
+====| Available Trials |=====
+[1] - Some trial
+[2] - Some other trial
+[3] - DFCI-9999
+~~~~
+
+Select the number that corresponds to "DFCI-9999"
+
+~~~~
+Pick an upload method:
+   [1] Upload using a manifest file.,
+   [2] Upload inputs for a WDL pipeline,
+   [3] Upload data.
+~~~~
+
+Enter 1 to select "Upload using a manifest file."
+
+~~~~
+Please enter the file path to your download manifest: path/to/your/manifest
+~~~~
+
+The process should then automatically upload the files found in the manifest, assuming your manifest is formatted correctly.
+
+
+
