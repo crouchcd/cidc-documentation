@@ -18,19 +18,16 @@ $ gcloud auth application-default login
 Our WES upload process expects the upload of a metadata file.
 
 Meta Data file is a csv file and requires following columns:
-- SAMPLE_ID
-- TRIAL_ID
-- PATIENT_ID
-- TIMEPOINT
-- TIMEPOINT_UNIT
-- FASTQ_NORMAL_1
-- FASTQ_NORMAL_1
-- FASTQ_TUMOR_1
-- FASTQ_TUMOR_1
-- BATCH_ID
-- INSTRUMENT_MODEL
-- READ_LENGTH
-- AVG_INSERT_SIZE
+
+|COLUMN NAME|DESCRIPTION|
+|-----------|-----------|
+|**SAMPLE_ID**| Unique identifier for the sample|
+|**TRIAL_ID**| Trial identifier (Example: DFCI_9999)|
+|**PATIENT_ID**| Unique identifier for the patient|
+|**FASTQ_NORMAL_1**| Filename for fastq pair 1 from normal|
+|**FASTQ_NORMAL_2**| Filename for fastq pair 2 from normal|
+|**FASTQ_TUMOR_1**| Filename for fastq pair 1 from tumor| 
+|**FASTQ_TUMOR_2**| Filename for fastq pair 2 from tumor| 
 
 ## Uploading Files
 
@@ -61,18 +58,16 @@ Select the number that corresponds to "DFCI-9999"
 
 ~~~~
 Pick an upload method:
-   [1] Upload using a manifest file.,
-   [2] Upload inputs for a WDL pipeline,
-   [3] Upload data.
+   [1] Upload using a metadata file.
 ~~~~
 
-Enter 1 to select "Upload using a manifest file."
+Enter 1 to select "Upload using a metadata file."
 
 ~~~~
-Please enter the file path to your download manifest: path/to/your/manifest
+Please enter the metadata file path: path/to/your/metadata
 ~~~~
 
-The process should then automatically upload the files found in the manifest, assuming your manifest is formatted correctly.
+The process should then automatically upload the files found in the metadata, assuming your file is formatted correctly.
 
 
 
