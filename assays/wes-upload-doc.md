@@ -18,7 +18,6 @@ $ gcloud auth application-default login
 Our WES upload process expects the upload of a metadata file.
 
 Meta Data file is a csv file and requires following columns:
-- Columns
 - SAMPLE_ID
 - TRIAL_ID
 - PATIENT_ID
