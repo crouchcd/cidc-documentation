@@ -41,19 +41,19 @@ Click [here](https://docs.google.com/spreadsheets/d/1ThQj_5xNXX4-e5_2kB0LT0jQDCw
 
 Start the CLI and use your JWT to log in
 
-Authorize using your JWT:
+**Authorize using your JWT:**
 
 ~~~~
 (CMD) jwt your-jwt-here
 ~~~~
 
-Run upload command:
+**Run upload command:**
 
 ~~~~
 (CMD) upload_data
 ~~~~
 
-Select a trial:
+**Select a trial:**
 
 ~~~~
 ====| Available Trials |=====
@@ -61,16 +61,17 @@ Select a trial:
 [2] - Some other trial
 [3] - DFCI-9999
 ~~~~
-
 Select the number that corresponds to your trial of interest, for example DFCI-9999.
 
+**Select an assay:**
 ~~~~
 ====| Available Assays |=====
 [1] - WES
 ~~~~
 
-Select the number that corresponds to the assay data you are want to upload.
+Select the number that corresponds to the assay data you want to upload.
 
+**Select the upload method:**
 ~~~~
 Pick an upload method:
    [1] Upload using a metadata file.
