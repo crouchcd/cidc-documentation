@@ -39,22 +39,17 @@ Click [here](https://docs.google.com/spreadsheets/d/1ThQj_5xNXX4-e5_2kB0LT0jQDCw
 
 ## Uploading Files
 
-Start the CLI and use your JWT to log in
-
-**Authorize using your JWT:**
-
+**Start the CLI and use your JWT to log in**
 ~~~~
 (CMD) jwt your-jwt-here
 ~~~~
 
 **Run upload command:**
-
 ~~~~
 (CMD) upload_data
 ~~~~
 
 **Select a trial:**
-
 ~~~~
 ====| Available Trials |=====
 [1] - Some trial
@@ -76,7 +71,6 @@ Select the number that corresponds to the assay data you want to upload.
 Pick an upload method:
    [1] Upload using a metadata file.
 ~~~~
-
 Enter 1 to select "Upload using a metadata file."
 
 **Enter path to your metadata file:**
