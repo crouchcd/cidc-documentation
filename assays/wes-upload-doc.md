@@ -15,7 +15,9 @@ $ gcloud auth application-default login
 
 ## Whole Exome Sequencing (WES) File Type
 
-Our WES upload process expects the upload of a metadata file.
+Our WES upload process expects the upload of a metadata file. 
+
+The directory where the metadata file is located should also contain all the Fastq files which needs to be uploaded.
 
 Meta Data file is a csv file and requires following columns:
 
@@ -24,10 +26,14 @@ Meta Data file is a csv file and requires following columns:
 |**SAMPLE_ID**| Unique identifier for the sample|
 |**TRIAL_ID**| Trial identifier (Example: DFCI_9999)|
 |**PATIENT_ID**| Unique identifier for the patient|
+|**TIMEPOINT**| Time associated with the sample acquisition|
+|**TIMEPOINT_UNIT**| Unit associated with the timepoint data|
 |**FASTQ_NORMAL_1**| Filename for fastq pair 1 from normal|
 |**FASTQ_NORMAL_2**| Filename for fastq pair 2 from normal|
 |**FASTQ_TUMOR_1**| Filename for fastq pair 1 from tumor| 
-|**FASTQ_TUMOR_2**| Filename for fastq pair 2 from tumor| 
+|**FASTQ_TUMOR_2**| Filename for fastq pair 2 from tumor|
+|**BATCH_ID**| Sequencing batch identifier for the sample|
+|**INSTRUMENT_MODEL**| Sequencing platform used|
 
 ## Uploading Files
 
