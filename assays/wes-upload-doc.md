@@ -9,9 +9,9 @@ You also need to install the Google Cloud SDK.
 
 After installation you'll need to authenticate the SDK with the following command. Use the credentials you created for this portal.
 
-```console
+~~~~
 $ gcloud auth application-default login
-```
+~~~~
 
 ## Whole Exome Sequencing (WES) File Type
 
