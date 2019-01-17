@@ -2,7 +2,7 @@
 
 # Table of Contents
 - [Introduction](#introduction)
-- [Wokflow](#workflow)
+- [Workflow](#workflow)
 - [Pipeline Inputs](#input)
 - [Pipeline Outputs](#output)
 
@@ -21,7 +21,7 @@ VCF files and MAF files.
 
 # Pipeline Input <a name="input"></a>
 - Fastq files
-- Metadata file
+- Config file
 
 # Pipeline Output <a name="output"></a>
 - VCF file
