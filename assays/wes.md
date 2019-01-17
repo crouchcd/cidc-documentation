@@ -3,8 +3,8 @@
 # Table of Contents
 - [Introduction](#introduction)
 - [Workflow](#workflow)
-- [Pipeline Inputs](#inputs)
-- [Pipeline Outputs](#outputs)
+- [Inputs](#inputs)
+- [Outputs](#outputs)
 
 ## Introduction <a name="introduction"></a>
 
