@@ -19,7 +19,7 @@ Our WES upload process expects the upload of a metadata file.
 
 The directory where the metadata file is located should also contain all the Fastq files which needs to be uploaded.
 
-Meta Data file is a csv file and requires following columns:
+Metadata file is a csv file and requires following columns:
 
 |COLUMN NAME|DESCRIPTION|
 |-----------|-----------|
@@ -34,6 +34,8 @@ Meta Data file is a csv file and requires following columns:
 |**FASTQ_TUMOR_2**| Filename for fastq pair 2 from tumor|
 |**BATCH_ID**| Sequencing batch identifier for the sample|
 |**INSTRUMENT_MODEL**| Sequencing platform used for the assay|
+
+Click [here](https://docs.google.com/spreadsheets/d/1ThQj_5xNXX4-e5_2kB0LT0jQDCwtnrXKng859oOWLLw) to see an example of a metadata file.
 
 ## Uploading Files
 
