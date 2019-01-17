@@ -19,10 +19,10 @@ VCF files and MAF files.
 - Variant Calling: Mutect
 - Variant Annotation: VEP
 
-# Pipeline Input <a name="input"></a>
+# Pipeline Inputs <a name="input"></a>
 - Fastq files
 - Config file
 
-# Pipeline Output <a name="output"></a>
+# Pipeline Outputs <a name="output"></a>
 - VCF file
 - MAF file
