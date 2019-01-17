@@ -65,6 +65,13 @@ Select a trial:
 Select the number that corresponds to your trial of interest, for example DFCI-9999.
 
 ~~~~
+====| Available Assays |=====
+[1] - WES
+~~~~
+
+Select the number that corresponds to the assay data you are want to upload.
+
+~~~~
 Pick an upload method:
    [1] Upload using a metadata file.
 ~~~~
@@ -78,6 +85,3 @@ Please enter the metadata file path: path/to/your/metadata
 Enter the path to your metadata file.
 
 The process will then use the metadata file to upload the fastq files.
-
-
-
