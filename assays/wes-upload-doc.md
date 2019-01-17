@@ -62,7 +62,7 @@ Select a trial:
 [3] - DFCI-9999
 ~~~~
 
-Select the number that corresponds to "DFCI-9999"
+Select the number that corresponds to your trial of interest, for example DFCI-9999.
 
 ~~~~
 Pick an upload method:
@@ -74,6 +74,8 @@ Enter 1 to select "Upload using a metadata file."
 ~~~~
 Please enter the metadata file path: path/to/your/metadata
 ~~~~
+
+Enter the path to your metadata file.
 
 The process will then use the metadata file to upload the fastq files.
 
