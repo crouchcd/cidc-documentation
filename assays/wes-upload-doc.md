@@ -34,6 +34,8 @@ Metadata file is a csv file and requires following columns:
 |**FASTQ_TUMOR_2**| Filename for fastq pair 2 from tumor|
 |**BATCH_ID**| Sequencing batch identifier for the sample|
 |**INSTRUMENT_MODEL**| Sequencing platform used for the assay|
+|**READ_LENGTH**| Length of sequencing reads|
+|**INSERT_SIZE**|Insert size of the library used for paired end sequencing|
 
 Click [here](https://docs.google.com/spreadsheets/d/1ThQj_5xNXX4-e5_2kB0LT0jQDCwtnrXKng859oOWLLw) to see an example of a metadata file.
 
