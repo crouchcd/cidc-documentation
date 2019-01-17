@@ -33,7 +33,7 @@ Meta Data file is a csv file and requires following columns:
 |**FASTQ_TUMOR_1**| Filename for fastq pair 1 from tumor| 
 |**FASTQ_TUMOR_2**| Filename for fastq pair 2 from tumor|
 |**BATCH_ID**| Sequencing batch identifier for the sample|
-|**INSTRUMENT_MODEL**| Sequencing platform used|
+|**INSTRUMENT_MODEL**| Sequencing platform used for the assay|
 
 ## Uploading Files
 
