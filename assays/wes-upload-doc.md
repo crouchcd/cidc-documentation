@@ -71,7 +71,6 @@ Select the number that corresponds to the assay data you want to upload.
 Pick an upload method:
    [1] Upload using a metadata file.
 ~~~~
-Enter 1 to select "Upload using a metadata file."
 
 **Enter path to your metadata file:**
 ~~~~
