@@ -79,10 +79,9 @@ Pick an upload method:
 
 Enter 1 to select "Upload using a metadata file."
 
+**Enter path to metadata file**
 ~~~~
 Please enter the metadata file path: path/to/your/metadata
 ~~~~
-
-Enter the path to your metadata file.
 
 The process will then use the metadata file to upload the fastq files.
