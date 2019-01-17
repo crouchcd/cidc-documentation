@@ -79,7 +79,7 @@ Pick an upload method:
 
 Enter 1 to select "Upload using a metadata file."
 
-**Enter path to metadata file**
+**Enter path to your metadata file:**
 ~~~~
 Please enter the metadata file path: path/to/your/metadata
 ~~~~
