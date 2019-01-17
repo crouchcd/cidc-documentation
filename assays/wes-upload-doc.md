@@ -13,19 +13,17 @@ After installation you'll need to authenticate the SDK with the following comman
 $ gcloud auth application-default login
 ~~~~
 
-## Whole Exome Sequencing (WES) File Type
+## File formats for Whole Exome Sequencing (WES) uploads:
 
-Our WES upload process expects the upload of a metadata file. 
+To upload the WES data, create a directory with a metadata file and the fastq files. 
 
-The directory where the metadata file is located should also contain all the Fastq files which needs to be uploaded.
-
-Metadata file is a csv file and requires following columns:
+The metadata file is a csv file and requires the following columns:
 
 |COLUMN NAME|DESCRIPTION|
 |-----------|-----------|
 |**SAMPLE_ID**| Unique identifier for the sample|
-|**TRIAL_ID**| Trial identifier (Example: DFCI_9999)|
 |**PATIENT_ID**| Unique identifier for the patient|
+|**TRIAL_ID**| Trial identifier (Example: DFCI_9999)|
 |**TIMEPOINT**| Time associated with the sample acquisition|
 |**TIMEPOINT_UNIT**| Unit associated with the timepoint data|
 |**FASTQ_NORMAL_1**| Filename for fastq pair 1 from normal|
@@ -77,7 +75,7 @@ Enter 1 to select "Upload using a metadata file."
 Please enter the metadata file path: path/to/your/metadata
 ~~~~
 
-The process should then automatically upload the files found in the metadata, assuming your file is formatted correctly.
+The process will then use the metadata file to upload the fastq files.
 
 
 
