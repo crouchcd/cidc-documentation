@@ -6,23 +6,23 @@
 - [Pipeline Inputs](#input)
 - [Pipeline Outputs](#output)
 
-## Introduction
+## Introduction <a name="introduction"></a>
 
 CIDC Whole Exome Pipeline is a computational workflow for identifying somatic variants from tumor sample. The pipeline includes 
 tools for quality control (QC) and characterization of paired (tumor/normal) whole exome sequencing data.  The outputs of the pipeline includes
 VCF files and MAF files.
 
-## Workflow
+## Workflow <a name="workflow"></a>
 
 - Quality Control: FASTQC
 - Alignment: bwa-mem
 - Variant Calling: Mutect
 - Variant Annotation: VEP
 
-# Pipeline Input
+# Pipeline Input <a name="input"></a>
 - Fastq files
 - Metadata file
 
-# Pipeline Output
+# Pipeline Output <a name="output"></a>
 - VCF file
 - MAF file
