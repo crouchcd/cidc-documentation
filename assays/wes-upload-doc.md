@@ -1,7 +1,7 @@
 ## Before uploading data
 If you haven't already, see our instructions on downloading and installing the CIDC-CLI which you will use to upload data.
 
-[CIDC-CLI Install Instructions](https://stagingportal.cimac-network.org/portal/cimac_biofx/cli-install)
+[CIDC-CLI Install Instructions](/portal/cimac_biofx/cli-install)
 
 You also need to install the Google Cloud SDK.
 
