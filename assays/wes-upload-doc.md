@@ -35,7 +35,7 @@ The metadata file is a csv file and requires the following columns:
 |**READ_LENGTH**| Length of sequencing reads|
 |**INSERT_SIZE**|Insert size of the library used for paired end sequencing|
 
-Click [here](https://docs.google.com/spreadsheets/d/1ThQj_5xNXX4-e5_2kB0LT0jQDCwtnrXKng859oOWLLw) to see an example of a metadata file.
+Click [here](https://drive.google.com/file/d/14glz91rupqLTMbGK3A9OWx5Gv_b45wNe/view?usp=sharing) to see an example of a metadata file.
 
 ## Uploading Files
 
