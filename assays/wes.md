@@ -11,10 +11,10 @@ VCF files and MAF files.
 - Variant Calling: Mutect
 - Variant Annotation: VEP
 
-# Inputs 
+## Inputs 
 - Fastq files
 - Config file
 
-# Outputs 
+## Outputs 
 - VCF file
 - MAF file
