@@ -1,11 +1,5 @@
 # Documentation for Whole Exome Sequencing Pipeline
 
-# Table of Contents
-- [Introduction](#introduction)
-- [Workflow](#workflow)
-- [Inputs](#inputs)
-- [Outputs](#outputs)
-
 ## Introduction
 
 CIDC Whole Exome Pipeline is a computational workflow for identifying somatic variants from tumor sample. The pipeline includes 
