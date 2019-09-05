@@ -16,7 +16,7 @@ Each Olink experiment creates two files, the CT file created from the Biomark HD
 
 Additionally for studies utilizing multiple batches, a harmonized and combined file can be created by the Olink NPX Manager software. This is usually refered to as the combined NPX file.
 
-Example directory for olink data transfer:
+Example directory for Olink data transfer:
 ```
 .
 ├── olink_assay_1_CT.xlsx
@@ -29,7 +29,11 @@ Example directory for olink data transfer:
 
 ## Olink metadata
 
-The following section details the specific metadata collected for the olink assay.
+The following section details the specific metadata collected for the Olink assay.
+
+<div>
+    <iframe src="templates.metadata.olink_template.html"></iframe> 
+</div>
 
 ### metadata model
 
