@@ -11,6 +11,13 @@ VCF files and MAF files.
 - Variant Calling: Mutect
 - Variant Annotation: VEP
 
+## Olink Metadata
+
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.wes_template.html) to see the specific metadata collected for the WES assay.
+
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/wes_template.xlsx) to see an example of a metadata xlsx file.
+
+
 ## Inputs 
 - Fastq files
 - Config file
