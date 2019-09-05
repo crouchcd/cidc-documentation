@@ -27,18 +27,11 @@ Example directory for Olink data transfer:
 └── olink_metadata_090219.xlsx
 ```
 
-## Olink metadata
+## Olink Metadata
 
-The following section details the specific metadata collected for the Olink assay.
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.olink_template.html) to see the specific metadata collected for the Olink assay.
 
-<div>
-    <iframe src="templates.metadata.olink_template.html"></iframe> 
-</div>
-
-### metadata model
-
-### example metadata
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_examples/olink_template.xlsx) to see an example of a metadata file.
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_examples/olink_template.xlsx) to see an example of a metadata xlsx file.
 
 ## Uploading Files
 
@@ -52,4 +45,4 @@ cidc login [token]
 cidc assays upload --assay olink --xlsx olink_metadata_090219.xlsx
 ~~~~
 
-The process will then use the metadata file to upload the required files
+The process will then use the metadata file to upload the required files.
