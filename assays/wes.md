@@ -12,15 +12,9 @@ tools for quality control (QC) and characterization of paired (tumor/normal) who
 4. The CIMAC technician or CIMAC bioinformatics support will fill in the columns of the metadata spreadsheet.
 5. The CIMAC technician or CIMAC bioinformatics support will transfer the metadata and files to CIDC using the command line tool.
 
-
-- Quality Control: FASTQC
-- Alignment: bwa-mem
-- Variant Calling: Mutect
-- Variant Annotation: VEP
-
 ## WES files
 
-Each Whole Exome Sequencing experiment requires fastq files and a config file; and stores VCF and MAF files as outputs.
+Each Whole Exome Sequencing experiment requires fastq files and a config file. **NOTE** CIDC will process the fastq files into derivative results in a seperate process coordinated by the CIDC bioinformatics team. 
 
 Example directory for WES data transfer:
 ```
