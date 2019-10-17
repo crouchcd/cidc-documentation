@@ -1,5 +1,5 @@
 
-## The CIDC Command-Line Interface
+# The CIDC Command-Line Interface
 
 To upload assay data to the CIDC, you will use the CIDC Command-Line Interface (CLI). For detailed guidelines on how to upload a particular assay type, browse the assay-specific documentation.
 
