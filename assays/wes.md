@@ -38,13 +38,13 @@ Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_exa
 ## Uploading Files
 
 **Start the CLI and use your JWT to log in**
-~~~~
+```bash
 cidc login [token]
-~~~~
+```
 
 **Run upload command:**
-~~~~
+```bash
 cidc assays upload --assay wes --xlsx wes_metadata_082919.xlsx
-~~~~
+```
 
 The process will then use the metadata file to upload the required files.
