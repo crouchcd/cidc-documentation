@@ -33,13 +33,13 @@ Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_exam
 ## Uploading Files
 
 **Start the CLI and use your JWT to log in**
-~~~~
+```bash
 cidc login [token]
-~~~~
+```
 
 **Run upload command:**
-~~~~
+```bash
 cidc assays upload --assay cytof --xlsx cytof_metadata_090219.xlsx
-~~~~
+```
 
 The process will then use the metadata file to upload the required files.
