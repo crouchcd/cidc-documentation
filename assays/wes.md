@@ -1,4 +1,4 @@
-## Introduction to WES
+# WES upload
 
 CIDC Whole Exome Pipeline is a computational workflow for identifying somatic variants from tumor sample. The pipeline includes 
 tools for quality control (QC) and characterization of paired (tumor/normal) whole exome sequencing data.
