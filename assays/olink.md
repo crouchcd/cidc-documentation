@@ -35,7 +35,7 @@ Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_exam
 
 ## Uploading Files
 
-**Start the CLI and use your JWT to log in**
+**Start the CLI and use your JSON Web Token (displayed below) to log in**
 ```bash
 cidc login [token]
 ```
