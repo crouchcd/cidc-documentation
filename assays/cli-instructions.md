@@ -17,3 +17,4 @@ Before uploading data, you'll need to log in. To do so, run:
 ```bash
 cidc login [token]
 ```
+**Note: if you are logged in, the above line contains your valid identity token. Copy-and-paste it to log in.**
