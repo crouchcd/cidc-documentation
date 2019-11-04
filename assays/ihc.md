@@ -15,6 +15,8 @@ Example directory for IHC data transfer (all files should be in the same directo
 ```
 .
 ├── ihc_assay_CT.xlsx
+├── ihc_image.tiff
+├── he_image.tiff
 └── ihc_metadata_11012019.xlsx
 ```
 
@@ -27,7 +29,7 @@ Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_exam
 
 ## Uploading Files
 
-**Start the CLI and use your JSON Web Token (displayed below) to log in**
+**Start the CLI and use your Identity Token (displayed below) to log in**
 ```bash
 cidc login [token]
 ```
