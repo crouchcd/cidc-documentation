@@ -18,8 +18,8 @@ Example directory for WES data transfer:
 ```
 .
 ├── fwd.1.fastq/fastq.gz
-├── fwd.2.fastq/fastq.gz
 ├── rev.1.fastq/fastq.gz
+├── fwd.2.fastq/fastq.gz
 ├── rev.2.fastq/fastq.gz
 ├── wes_metadata_082919.xlsx
 ```
