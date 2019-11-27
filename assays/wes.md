@@ -21,8 +21,6 @@ Example directory for WES data transfer:
 ├── fwd.2.2.2.fastq.gz
 ├── rev.1.1.1.fastq.gz
 ├── rev.2.2.2.fastq.gz
-├── rgm.1.1.1.txt
-├── rgm.2.2.2.txt
 ├── wes_metadata_082919.xlsx
 ```
 
