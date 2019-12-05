@@ -17,12 +17,10 @@ Each Whole Exome Sequencing experiment creates fastq files and a config file. **
 Example directory for WES data transfer:
 ```
 .
-├── fwd.1.1.1.fastq.gz
-├── fwd.2.2.2.fastq.gz
-├── rev.1.1.1.fastq.gz
-├── rev.2.2.2.fastq.gz
-├── rgm.1.1.1.txt
-├── rgm.2.2.2.txt
+├── fwd.1.fastq/fastq.gz
+├── rev.1.fastq/fastq.gz
+├── fwd.2.fastq/fastq.gz
+├── rev.2.fastq/fastq.gz
 ├── wes_metadata_082919.xlsx
 ```
 
