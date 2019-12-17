@@ -12,15 +12,23 @@ Whole exome sequencing (WES) is an assay used to sequence the coding regions of 
 
 ## WES Files
 
-Each Whole Exome Sequencing experiment creates fastq files and a config file. **NOTE:** CIDC will process the fastq files into derivative results in a seperate process coordinated by the CIDC Bioinformatics Team. 
+Each Whole Exome Sequencing experiment creates fastq.gz/bam files and a config file. **NOTE:** CIDC will process these into derivative results in a separate process coordinated by the CIDC Bioinformatics Team. 
 
-Example directory for WES data transfer:
+Example directory for WES data transfer with fastq.gz files:
 ```
 .
-├── fwd.1.fastq/fastq.gz
-├── rev.1.fastq/fastq.gz
-├── fwd.2.fastq/fastq.gz
-├── rev.2.fastq/fastq.gz
+├── fwd.1.fastq.gz
+├── rev.1.fastq.gz
+├── fwd.2.fastq.gz
+├── rev.2.fastq.gz
+├── wes_metadata_082919.xlsx
+```
+
+Example directory for WES data transfer with bam files:
+```
+.
+├── 1.bam
+├── 2.bam
 ├── wes_metadata_082919.xlsx
 ```
 
