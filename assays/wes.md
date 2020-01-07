@@ -51,7 +51,7 @@ cidc login [token]
 cidc assays upload --assay wes_<format> --xlsx wes_metadata_082919.xlsx
 ```
 
-**Run Analysis-upload command, specifying the format as either fastq or bam:**
+**Run Analysis-upload command**
 ```bash
 cidc analyses upload --analysis wes_analysis --xlsx wes_analysis_010720.xlsx
 ```
