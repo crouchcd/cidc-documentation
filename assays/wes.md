@@ -46,9 +46,13 @@ Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_exa
 cidc login [token]
 ```
 
-**Run upload command, specifying the format as either fastq or bam:**
+**Run Assay-upload command, specifying the format as either fastq or bam:**
 ```bash
 cidc assays upload --assay wes_<format> --xlsx wes_metadata_082919.xlsx
 ```
 
+**Run Analysis-upload command, specifying the format as either fastq or bam:**
+```bash
+cidc analyses upload --analysis wes_analysis --xlsx wes_analysis_010720.xlsx
+```
 The process will then use the metadata file to upload the required files.
