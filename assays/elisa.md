@@ -1,5 +1,6 @@
 # ELISA
 
+The enzyme-linked immunosorbent assay (ELISA), is a plate-based assay technique that uses a solid-phase enzyme immunoassay (EIA) to detect and quantify the presence of a substance (proteins, antibodies, peptides, or hormones) in a liquid sample by assessing the conjugated enzyme activity with a substrate. 
 
 ## ELISA Workflow Overview
 1. The CIMAC technician who is performing the experiment downloads a copy of the ELISA metadata spreadsheet template via the CIDC portal.
