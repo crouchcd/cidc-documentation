@@ -15,7 +15,7 @@ The enzyme-linked immunosorbent assay (ELISA), is a plate-based assay technique 
 Example directory for ELISA data transfer:
 ```
 .
-├── serology_results.xlsx
+├── grand_serology_results.xlsx
 └── elisa_metadata_090219.xlsx
 ```
 
