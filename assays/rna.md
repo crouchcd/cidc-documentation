@@ -35,11 +35,11 @@ Example directory for RNA Expression data transfer with bam files:
 ## RNA Metadata
 
 
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_fastq_template.html) to see the specific metadata collected for the RNA Expression assay [FASTQ format] . \
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_fastq_template.html) to see the specific metadata collected for the RNA Expression assay [FASTQ format] .
 Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_bam_template.html) to see the specific metadata collected for the RNA Expression assay [BAM format].
 
 
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/rna_fastq_template.xlsx) to see an example of a metadata xlsx file [FASTQ format] . \
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/rna_fastq_template.xlsx) to see an example of a metadata xlsx file [FASTQ format] .
 Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/rna_bam_template.xlsx) to see an example of a metadata xlsx file [BAM format] .
 
 ## Uploading Files
