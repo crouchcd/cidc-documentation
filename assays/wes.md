@@ -21,7 +21,7 @@ Example directory for WES data transfer with fastq.gz files:
 ├── rev.1.fastq.gz
 ├── fwd.2.fastq.gz
 ├── rev.2.fastq.gz
-├── wes_metadata_082919.xlsx
+├── wes_fastq_metadata_082919.xlsx
 ```
 
 Example directory for WES data transfer with bam files:
@@ -29,15 +29,20 @@ Example directory for WES data transfer with bam files:
 .
 ├── 1.bam
 ├── 2.bam
-├── wes_metadata_082919.xlsx
+├── wes_fastq_metadata_082919.xlsx
 ```
 
 ## WES Metadata
 
 
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.wes_template.html) to see the specific metadata collected for the WES assay.
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.wes_fastq_template.html) to see the specific metadata collected for the WES assay [FASTQ format].
 
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/wes_template.xlsx) to see an example of a metadata xlsx file.
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.wes_bam_template.html) to see the specific metadata collected for the WES assay [BAM format].
+
+
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/wes_fastq_template.xlsx) to see an example of a metadata xlsx file [FASTQ format].
+
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/wes_bam_template.xlsx) to see an example of a metadata xlsx file [BAM format].
 
 ## Uploading Files
 
@@ -55,4 +60,4 @@ cidc assays upload --assay wes_<format> --xlsx wes_metadata_082919.xlsx
 ```bash
 cidc analyses upload --analysis wes_analysis --xlsx wes_analysis_010720.xlsx
 ```
-The process will then use the metadata file to upload the required files.
+The process will then use the metadata file to upload the required files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
