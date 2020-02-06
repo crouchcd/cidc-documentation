@@ -1,6 +1,6 @@
 # RNA Expression
 
-
+RNA sequencing techniques are employed for transcriptome analysis in various sample types.
 
 ## RNA Seq Workflow Overview
 
