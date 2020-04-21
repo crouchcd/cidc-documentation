@@ -11,6 +11,7 @@ pip3 install cidc-cli
 To display a help message outlining the available commands for the CLI, run:
 ```bash
 cidc
+gcloud auth login
 ```
 ## Log In
 Before uploading data, you'll need to log in. To do so, run:
