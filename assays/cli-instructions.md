@@ -16,6 +16,8 @@ cidc
 Before uploading data, you'll need to log in. To do so, run:
 ```bash
 gcloud auth login
+```
+```bash
 cidc login [token]
 ```
 **Note: the above line contains your valid identity token. Copy-and-paste it to log in.**
