@@ -15,8 +15,14 @@ Multiplex immunofluorescence (mIF) biomarker imaging allows for multi-label anal
 Example directory for mIF data transfer:
 ```
 .
-├── 1.xyz
-├── 2.xyz
+├── 121
+│   ├── 1_score_data.txt
+│   ├── 1_binary_seg_map.tif
+│   ├── 1_cell_seg_data.txt
+│   ├── 1_cell_seg_data_summary.txt
+│   ├── 1_phenotype_map.tif
+│   ├── 1_composite_image.tif
+│   └── 1.im3
 ├── mIF_metadata_30012020.xlsx
 ```
 
