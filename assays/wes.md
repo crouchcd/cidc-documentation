@@ -61,8 +61,4 @@ cidc config set-env staging
 cidc assays upload --assay wes_<format> --xlsx wes_metadata_082919.xlsx
 ```
 
-**Run Analysis-upload command**
-```bash
-cidc analyses upload --analysis wes_analysis --xlsx wes_analysis_010720.xlsx
-```
 The process will then use the metadata file to upload the required files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
