@@ -51,6 +51,11 @@ Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_exa
 cidc login [token]
 ```
 
+**The default environment is set to `production`. To switch to `staging` for testing purposes, run:**
+```bash
+cidc config set-env staging
+```
+
 **Run Assay-upload command, specifying the format as either fastq or bam:**
 ```bash
 cidc assays upload --assay wes_<format> --xlsx wes_metadata_082919.xlsx

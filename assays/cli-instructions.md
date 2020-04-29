@@ -21,3 +21,9 @@ gcloud auth login
 cidc login [token]
 ```
 **Note: the above line contains your valid identity token. Copy-and-paste it to log in.**
+
+
+**The default environment is set to `production`. To switch to `staging` for testing purposes, run:**
+```bash
+cidc config set-env staging
+```
