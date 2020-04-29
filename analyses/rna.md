@@ -12,8 +12,6 @@ RNA sequencing techniques are employed for transcriptome analysis in various sam
 git p
 ## RNA Seq Analysis Files
 
-Each RNA Seq experiment creates fastq.gz/bam files and a config file. **NOTE:** CIDC will process these into derivative results in a separate process coordinated by the CIDC Bioinformatics Team. 
-
 Example directory for RNA Expression analysis data transfer:
 ```
 .
