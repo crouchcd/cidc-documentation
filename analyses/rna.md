@@ -9,7 +9,7 @@ RNA sequencing techniques are employed for transcriptome analysis in various sam
 3. The CIMAC technician performs the experiment and data analysis.
 4. The CIMAC technician or CIMAC bioinformatics support fills in the columns of the metadata spreadsheet.
 5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and data files to CIDC using the command line tool.
-git p
+
 ## RNA Seq Analysis Files
 
 Example directory for RNA Expression analysis data transfer:
@@ -21,18 +21,6 @@ Example directory for RNA Expression analysis data transfer:
 │   └── ..
 ├── rna_analysis_30012020.xlsx
 ```
-
-## RNA Metadata
-
-
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_fastq_template.html) to see the specific metadata collected for the RNA Expression assay (FASTQ format).
-
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_bam_template.html) to see the specific metadata collected for the RNA Expression assay (BAM format).
-
-
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/rna_fastq_template.xlsx) to see an example of a metadata xlsx file (FASTQ format).
-
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/rna_bam_template.xlsx) to see an example of a metadata xlsx file (BAM format).
 
 ## Uploading Files
 

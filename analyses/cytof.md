@@ -24,12 +24,6 @@ Example directory for CyTOF analysis data transfer:
 └── cytof_analysis_090219.xlsx
 ```
 
-## CyTOF Metadata
-
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.cytof_template.html) to see the specific metadata collected for the CyTOF assay.
-
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_examples/cytof_template.xlsx) to see an example of a metadata xlsx file.
-
 ## Uploading Files
 
 **Start the CLI and use your Identity Token (displayed below) to log in**

@@ -22,18 +22,6 @@ Example directory for WES analysis data transfer:
 ├── wes_analysis_30012020.xlsx
 ```
 
-## WES Metadata
-
-
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.wes_fastq_template.html) to see the specific metadata collected for the WES assay (FASTQ format).
-
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.wes_bam_template.html) to see the specific metadata collected for the WES assay (BAM format).
-
-
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/wes_fastq_template.xlsx) to see an example of a metadata xlsx file (FASTQ format).
-
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/wes_bam_template.xlsx) to see an example of a metadata xlsx file (BAM format).
-
 ## Uploading Files
 
 **Start the CLI and use your Identity Token (displayed below) to log in**
