@@ -9,7 +9,6 @@ RNA sequencing techniques are employed for transcriptome analysis in various sam
 3. The CIMAC technician performs the experiment and data analysis.
 4. The CIMAC technician or CIMAC bioinformatics support fills in the columns of the metadata spreadsheet.
 5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and data files to CIDC using the command line tool.
-git p
 ## RNA Seq Files
 
 Each RNA Seq experiment creates fastq.gz/bam files and a config file. **NOTE:** CIDC will process these into derivative results in a separate process coordinated by the CIDC Bioinformatics Team. 
