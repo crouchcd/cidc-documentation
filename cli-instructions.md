@@ -5,7 +5,7 @@ To upload assay data to the CIDC, you will use the CIDC Command-Line Interface (
 ## Installation
 To install the CIDC CLI, run the following command:
 ```bash
-pip3 install cidc-cli
+sudo pip3 install cidc-cli
 ```
 ## Help
 To display a help message outlining the available commands for the CLI, run:
