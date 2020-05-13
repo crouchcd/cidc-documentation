@@ -12,6 +12,12 @@ To display a help message outlining the available commands for the CLI, run:
 ```bash
 cidc
 ```
+
+The default environment is set to production (`prod`). To switch to `staging` for testing purposes, run:
+```bash
+cidc config set-env staging
+```
+
 ## Log In
 Before uploading data, you'll need to log in. To do so, run:
 ```bash
@@ -22,8 +28,3 @@ cidc login [token]
 ```
 **Note: the above line contains your valid identity token. Copy-and-paste it to log in.**
 
-
-The default environment is set to `production`. To switch to `staging` for testing purposes, run:
-```bash
-cidc config set-env staging
-```
