@@ -17,7 +17,7 @@ Example directory for mIF data transfer:
 .
 ├── 121
 │   ├── 1_score_data.txt
-│   ├── 1_binary_seg_map.tif
+│   ├── 1_binary_seg_maps.tif
 │   ├── 1_cell_seg_data.txt
 │   ├── 1_cell_seg_data_summary.txt
 │   ├── 1_phenotype_map.tif
