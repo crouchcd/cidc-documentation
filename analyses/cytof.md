@@ -21,6 +21,8 @@ Example directory for CyTOF analysis data transfer:
 ├── CTTTPP111.00/cca.csv
 ├── CTTTPP111.00/ccc.csv
 ├── CTTTPP111.00/ccp.csv
+├── CTTTPP111.00/reports.zip
+├── CTTTPP111.00/analysis.zip
 └── cytof_analysis_090219.xlsx
 ```
 
