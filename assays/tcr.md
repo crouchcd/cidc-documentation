@@ -1,6 +1,6 @@
 # TCRseq
 
-(Summary)
+T-cell receptor sequencing (TCRseq) is an extension of RNAseq that uses a mix of primers specific for the TCR to study the diversity of these receptors. As T cells are highly important in cell-based immunity, describing their varieties and distribution provides a window into the function of the adaptive immune system.
 
 ## TCRseq Workflow Overview
 
