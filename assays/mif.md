@@ -17,7 +17,7 @@ Example directory for mIF data transfer:
 .
 ├── 121
 │   ├── 1_score_data.txt
-│   ├── 1_binary_seg_map.tif
+│   ├── 1_binary_seg_maps.tif
 │   ├── 1_cell_seg_data.txt
 │   ├── 1_cell_seg_data_summary.txt
 │   ├── 1_phenotype_map.tif
@@ -41,11 +41,6 @@ cidc login [token]
 
 **Run Assay-upload command, specifying the format as either fastq or bam:**
 ```bash
-cidc assays upload --assay mIF --xlsx mIF_metadata_082919.xlsx
+cidc assays upload --assay mif --xlsx mIF_metadata_082919.xlsx
 ```
-
-**Run Analysis-upload command**
-```bash
-cidc analyses upload --analysis mIF_analysis --xlsx mIF_analysis_010720.xlsx
-```
-The process will then use the metadata file to upload the required files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
+The process will then use the metadata file to upload the required files. 

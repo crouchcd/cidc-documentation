@@ -29,8 +29,17 @@ Example directory for RNA Expression analysis data transfer:
 cidc login [token]
 ```
 
+If you get
+```
+Error: Found no public key with id ...
+```
+you might want to switch environment to/from `staging`/`prod` like this 
+```bash
+cidc config set-env staging
+```
+
 **Run Analysis-upload command**
 ```bash
-cidc analyses upload --analysis rna_analysis --xlsx rna_analysis_010720.xlsx
+cidc analyses upload --analysis rna_level1_analysis --xlsx filled_rna_level1_analysis.xlsx
 ```
 The process will then use the template to upload the analysis files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.

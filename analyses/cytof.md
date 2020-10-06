@@ -21,6 +21,8 @@ Example directory for CyTOF analysis data transfer:
 ├── CTTTPP111.00/cca.csv
 ├── CTTTPP111.00/ccc.csv
 ├── CTTTPP111.00/ccp.csv
+├── CTTTPP111.00/reports.zip
+├── CTTTPP111.00/analysis.zip
 └── cytof_analysis_090219.xlsx
 ```
 
@@ -33,7 +35,7 @@ cidc login [token]
 
 **Run upload command:**
 ```bash
-cidc analyses upload --analysis cytof --xlsx cytof_analysis_090219.xlsx
+cidc analyses upload --analysis cytof_analysis --xlsx cytof_analysis_090219.xlsx
 ```
 
 The process will then use the analysis template to upload the required analysis files.

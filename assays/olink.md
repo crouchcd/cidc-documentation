@@ -19,9 +19,9 @@ Additionally for studies utilizing multiple batches, a harmonized and combined f
 Example directory for Olink data transfer (all files should be in the same directory):
 ```
 .
-├── olink_assay_1_CT.xlsx
+├── olink_assay_1_CT.csv
 ├── olink_assay_1_NPX.xlsx
-├── olink_assay_2_CT.xlsx
+├── olink_assay_2_CT.csv
 ├── olink_assay_2_NPX.xlsx
 ├── olink_assay_combined.xlsx
 └── olink_metadata_090219.xlsx
