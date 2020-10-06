@@ -16,8 +16,11 @@
 Example directory for TCR MiSeq data transfer:
 ```
 .
-├── file1
-├── file1
+├── read1.fastq.gz
+├── read2.fastq.gz
+├── index1.fastq.gz
+├── index2.fastq.gz
+├── sample_sheet.csv
 ├── TCRseq_metadata_30012020.xlsx
 ```
 
