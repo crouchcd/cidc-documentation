@@ -39,7 +39,7 @@ cidc login [token]
 
 **Run Assay-upload command, specifying the format as fastq:**
 ```bash
-cidc assays upload --assay TCR_fastq --xlsx tcr_fastq_metadata_20201005.xlsx
+cidc assays upload --assay tcr_fastq --xlsx tcr_fastq_metadata_20201005.xlsx
 ```
 
 The process will then use the metadata file to upload the required files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
