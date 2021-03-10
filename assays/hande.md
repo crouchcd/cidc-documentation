@@ -1,5 +1,5 @@
 # H & E
-TODO
+Hematoxylin and Eosin cellular/tissue staining in histology.
 
 ## H & E Workflow Overview
 1. The CIMAC technician who is performing the experiment downloads a copy of the H&E metadata spreadsheet template via the CIDC portal.
