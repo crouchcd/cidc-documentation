@@ -39,7 +39,7 @@ cidc login [token]
 
 **Run upload command:**
 ```bash
-cidc assays upload --assay cytof --xlsx cytof_metadata_090219.xlsx
+cidc assays upload --assay cytof_<trial> --xlsx cytof_metadata_090219.xlsx
 ```
 
 The process will then use the metadata file to upload the required files.
