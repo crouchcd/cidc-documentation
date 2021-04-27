@@ -35,7 +35,7 @@ cidc login [token]
 
 **Run upload command:**
 ```bash
-cidc analyses upload --analysis cytof_analysis --xlsx cytof_analysis_090219.xlsx
+cidc analyses upload --analysis cytof_<trial>_analysis --xlsx cytof_analysis_090219.xlsx
 ```
 
 The process will then use the analysis template to upload the required analysis files.
