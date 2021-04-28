@@ -21,6 +21,7 @@ Example directory for TCRseq analysis data transfer:
 ├── CTTTPP121.00/2A_10_0_TRA_clones_umi_count.csv
 ├── CTTTPP121.00/2A_10_0_TRB_clones_umi_count.csv
 ├── summary_info.csv
+├── report.tar.gz
 └── tcr_analysis_20201023.xlsx
 ```
 
