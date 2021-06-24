@@ -4,21 +4,20 @@ CLI instructions and Ingestion workflow documentation regarding the following:
 
 ## Assays
 
-- atac.md
-- cytof.md
-- elisa.md
-- hande.md
-- ihc.md
-- mif.md
-- olink.md
-- rna.md
-- tcr.md
-- template.md
-- wes.md
+- ATACseq
+- CyTOF
+- ELISA
+- H & E
+- IHC
+- MiF
+- Olink
+- RNAseq
+- TCRseq
+- WES
 
 ## Analyses
 
-- cytof.md
-- rna.md
-- tcr.md
-- wes.md
+- CyTOF
+- RNAseq
+- TCRseq
+- WES
