@@ -4,20 +4,20 @@ CLI instructions and Ingestion workflow documentation regarding the following:
 
 ## Assays
 
-- ATACseq
+- ATACseq (Fastq)
 - CyTOF
 - ELISA
 - H & E
 - IHC
 - MiF
 - Olink
-- RNAseq
-- TCRseq
-- WES
+- RNAseq (Fastq/Bam)
+- TCRseq (Fastq)
+- WES (Fastq/Bam)
 
 ## Analyses
 
 - CyTOF
 - RNAseq
 - TCRseq
-- WES
+- WES (Tumor-Normal/Tumor-only)
