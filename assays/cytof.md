@@ -16,11 +16,15 @@ Each CyTOF experiment creates one or more raw FCS files and a single processed F
 Example directory for CyTOF data transfer:
 ```
 .
-├── cytof_assay_1_raw1.fcs
-├── cytof_assay_1_raw2.fcs
-├── cytof_assay_1.fcs
-├── cytof_assay_2_raw1.fcs
-├── cytof_assay_2.fcs
+├── cytof_raw1.fcs
+├── cytof_raw2.fcs
+├── cytof_processed1.fcs
+├── cytof_processed2.fcs
+├── cytof_vericell1.fcs
+├── cytof_vericell2.fcs
+├── cytof_batch_control.fcs
+├── cytof_batch_control_vericell.fcs
+├── cytof_debarcoding_key.csv.fcs
 └── cytof_metadata_090219.xlsx
 ```
 
@@ -39,7 +43,7 @@ cidc login [token]
 
 **Run upload command:**
 ```bash
-cidc assays upload --assay cytof_<trial> --xlsx cytof_metadata_090219.xlsx
+cidc assays upload --assay cytof --xlsx cytof_metadata_090219.xlsx
 ```
 
 The process will then use the metadata file to upload the required files.
