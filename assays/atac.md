@@ -45,10 +45,10 @@ cidc login [token]
 cidc config set-env staging
 ```
 
-**Run Assay-upload command, specifying the format as either fastq or bam:**
+**Run Assay-upload command, specifying the format as fastq:**
 
 ```bash
-cidc assays upload --assay atacseq_<format> --xlsx atacseq_fastq_metadata_20210624.xlsx
+cidc assays upload --assay atacseq_fastq --xlsx atacseq_fastq_metadata_20210624.xlsx
 ```
 
 The process will then use the metadata file to upload the required files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
