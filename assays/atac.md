@@ -1,6 +1,6 @@
 # ATACseq
 
-TODO
+Assay for Transposase-Accessible Chromatin using sequencing (ATACseq) is used to assess genome-wide chromatin accessibility. Using a hyperactive transposase, the genome is fragmented and tagged with sequencing adaptors which are then amplified and sequenced. The more open the chromatin around a base, the more accessible it is to the transpose and so the more sequencing reads will align to that point.
 
 ## ATACseq Workflow Overview
 
