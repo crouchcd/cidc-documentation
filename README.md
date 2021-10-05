@@ -17,6 +17,7 @@ CLI instructions and Ingestion workflow documentation regarding the following:
 
 ## Analyses
 
+- ATACseq
 - CyTOF
 - RNAseq
 - TCRseq
