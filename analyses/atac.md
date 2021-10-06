@@ -41,7 +41,7 @@ cidc config set-env staging
 **Run Analysis-upload command, specifying the format as fastq:**
 
 ```bash
-cidc analyses upload --analysis atacseq_fastq_analysis --xlsx filled_atacseq_analysis.xlsx
+cidc analyses upload --analysis atacseq_analysis --xlsx filled_atacseq_analysis.xlsx
 ```
 
 The process will then use the template to upload the analysis files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
