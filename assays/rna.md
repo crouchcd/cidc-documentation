@@ -8,7 +8,10 @@ RNA sequencing techniques are employed for transcriptome analysis in various sam
 2. The CIMAC technician begins populating the metadata spreadsheet. **NOTE:** If the biospecimens have not yet been relabled to use CIMAC IDs, then the technician should *digitally* re-label the samples by replacing the native identifiers with the CIMAC ID when loading the samples into the machine.
 3. The CIMAC technician performs the experiment and data analysis.
 4. The CIMAC technician or CIMAC bioinformatics support fills in the columns of the metadata spreadsheet.
-5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and data files to CIDC using the command line tool.
+5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and the data files to a CIDC upload bucket, following the concierge model.
+6. The CIDC engineer transfers the metadata and the data files to CIDC using the command line tool.
+
+
 ## RNA Seq Files
 
 Each RNA Seq experiment creates fastq.gz/bam files and a config file. **NOTE:** CIDC will process these into derivative results in a separate process coordinated by the CIDC Bioinformatics Team. 
@@ -33,10 +36,9 @@ Example directory for RNA Expression data transfer with bam files:
 
 ## RNA Metadata
 
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.rna.rna_fastq_template.html) to see the specific metadata collected for the RNA Expression assay (FASTQ format).
 
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_fastq_template.html) to see the specific metadata collected for the RNA Expression assay (FASTQ format).
-
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.rna_bam_template.html) to see the specific metadata collected for the RNA Expression assay (BAM format).
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.rna.rna_bam_template.html) to see the specific metadata collected for the RNA Expression assay (BAM format).
 
 
 Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/rna_fastq_template.xlsx) to see an example of a metadata xlsx file (FASTQ format).
