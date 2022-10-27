@@ -14,7 +14,7 @@ T-cell receptor sequencing (TCRseq) is an extension of RNAseq that uses a mix of
 
 ## TCRseq Files
 
-Example directory for TCR MiSeq fatsq data transfer:
+Example directory for TCR MiSeq fastq data transfer:
 ```
 .
 ├── read1.fastq.gz

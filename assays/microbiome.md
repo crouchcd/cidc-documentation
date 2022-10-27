@@ -28,7 +28,7 @@ Example directory for Microbiome data transfer:
 └── microbiome_metadata_102522.xlsx
 ```
 
-## CyTOF Metadata
+## Microbiome Metadata
 
 Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.microbiome.microbiome_template.html) to see the specific metadata collected for the Microbiome assay.
 

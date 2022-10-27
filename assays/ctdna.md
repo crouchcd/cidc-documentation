@@ -29,7 +29,7 @@ Example directory for ctDNA data transfer:
 └── ctdna_metadata_102422.xlsx
 ```
 
-## CyTOF Metadata
+## ctDNA Metadata
 
 Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.ctdna.ctdna_template.html) to see the specific metadata collected for the ctDNA assay.
 

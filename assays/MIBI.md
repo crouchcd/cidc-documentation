@@ -27,7 +27,7 @@ Example directory for MIBI data transfer:
 └── mibi_metadata_102522.xlsx
 ```
 
-## CyTOF Metadata
+## MIBI Metadata
 
 Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.mibi.mibi_template.html) to see the specific metadata collected for the MIBI assay.
 
