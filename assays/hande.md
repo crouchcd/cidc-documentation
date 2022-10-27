@@ -1,12 +1,15 @@
 # H & E
+
 Hematoxylin and Eosin cellular/tissue staining in histology.
 
 ## H & E Workflow Overview
+
 1. The CIMAC technician who is performing the experiment downloads a copy of the H&E metadata spreadsheet template via the CIDC portal.
 2. The CIMAC technician begins populating the metadata spreadsheet. **NOTE:** If the biospecimens have not yet been relabled to use CIMAC IDs, then the technician should *digitally* re-label the sample by replacing the native identifiers with the CIMAC ID when loading the samples into the machine.
 3. The CIMAC technician performs the experiment and data analysis.
 4. The CIMAC technician or CIMAC bioinformatics support fills in the columns of the metadata spreadsheet which point to the resultant files.
-5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and files to CIDC using the command line tool.
+5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and the data files to a CIDC upload bucket, following the concierge model.
+6. The CIDC engineer transfers the metadata and the data files to CIDC using the command line tool.
 
 
 ## H&E Files
@@ -21,8 +24,9 @@ Example directory for H&E data transfer (all files should be in the same directo
 
 ## H&E Metadata
 
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.hande_template.html) to see the specific metadata collected for the H&E assay.
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.hande.hande_template.html) to see the specific metadata collected for the H&E assay.
 
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/raw/master/template_examples/hande_template.xlsx) to see an example of a metadata xlsx file.
 
 ## Uploading Files
 

@@ -9,11 +9,12 @@ T-cell receptor sequencing (TCRseq) is an extension of RNAseq that uses a mix of
 3. The CIMAC technician performs the experiment and data analysis.
 3. The CIMAC technician performs the experiment and data analysis.
 4. The CIMAC technician or CIMAC bioinformatics support fills in the columns of the metadata spreadsheet.
-5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and data files to CIDC using the command line tool.
+5. The CIMAC technician or CIMAC bioinformatics support transfers the metadata and the data files to a CIDC upload bucket, following the concierge model.
+6. The CIDC engineer transfers the metadata and the data files to CIDC using the command line tool.
 
 ## TCRseq Files
 
-Example directory for TCR MiSeq data transfer:
+Example directory for TCR MiSeq fastq data transfer:
 ```
 .
 ├── read1.fastq.gz
@@ -24,11 +25,24 @@ Example directory for TCR MiSeq data transfer:
 ├── TCRseq_metadata_30012020.xlsx
 ```
 
+Example directory for TCR MiSeq adaptive data transfer:
+```
+.
+├── reads.tsv
+├── sample_sheet.csv
+├── TCRseq_metadata_30012020.xlsx
+```
+
 ## TCR Metadata
 
-Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/templates.metadata.tcr_fastq_template.html) to see the specific metadata collected for the TCRseq assay.
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.tcr.tcr_fastq_template.html) to see the specific metadata collected for the TCRseq assay (FASTQ format).
 
-Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/tcr_fastq_template.xlsx) to see an example of a metadata xlsx file.
+Click [here](https://cimac-cidc.github.io/cidc-schemas/docs/assays.tcr.tcr_adaptive_template.html) to see the specific metadata collected for the TCRseq assay (Adaptive format).
+
+
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/tcr_fastq_template.xlsx) to see an example of a metadata xlsx file (FASTQ format).
+
+Click [here](https://github.com/CIMAC-CIDC/cidc-schemas/blob/master/template_examples/tcr_adaptive_template.xlsx) to see an example of a metadata xlsx file (Adaptive format).
 
 ## Uploading Files
 
@@ -39,7 +53,7 @@ cidc login [token]
 
 **Run Assay-upload command, specifying the format as fastq:**
 ```bash
-cidc assays upload --assay tcr_fastq --xlsx tcr_fastq_metadata_20201005.xlsx
+cidc assays upload --assay tcr_<format> --xlsx tcr_metadata_20201005.xlsx
 ```
 
 The process will then use the metadata file to upload the required files. The files can be viewed on the portal [here](https://stagingportal.cimac-network.org/browse-files) once the upload is complete.
